@@ -597,14 +597,14 @@ Strategy are used to hide the implementation detail of a feature. That are we wa
 
 | Name          | UTROid   | Git Name(s)            |
 | ------------- | -------- | ---------------------- |
-| Hongcheng Wei | weihongc | Hongcheng_Wei, homelet |
-| YuHao Yang    | yangy176 | martinyang0416         |
-| yi chen liu   | liuyi104 | KKKK123454321          |
-| Yue Lan       | lanyue1  | Yue, kat               |
-| Yu Sun    	| sunyu32  | Sunny                  |
-| Zhexuan Li    | lizhexua | royli142857            |
-| Qiyue Zhang   | zhan8055 | Qiyue Zhang, ma521yyy  |
-| Peiwen Luo    | luopeiwe | flora-luo              |
+| Hongcheng Wei | ******** | Hongcheng_Wei, homelet |
+| YuHao Yang    | ******** | martinyang0416         |
+| yi chen liu   | ******** | KKKK123454321          |
+| Yue Lan       | ******** | Yue, kat               |
+| Yu Sun    	| ******** | Sunny                  |
+| Zhexuan Li    | ******** | royli142857            |
+| Qiyue Zhang   | ******** | Qiyue Zhang, ma521yyy  |
+| Peiwen Luo    | ******** | flora-luo              |
 
 Huge thanks to the TAs and Instructors of CSC207 Fall 2020!
 

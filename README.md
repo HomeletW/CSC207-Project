@@ -16,15 +16,15 @@ including Organizers, Speakers, and Attendees at a conference to communicate wit
 
 ## Important Detail
 
-The UML Class Diagram is located in `phase2/design` folder.
+The UML Class Diagram is located in `design` folder.
 
 The list of feature we implemented are located below in the [Feature List](#feature-list) section.
 
 The list of design pattern employed are located below in the [Design Patterns](#design-patterns) section.
 
-After the program finishes, the session is deserialized and stored at `phase2/session/Session.ser`.
+After the program finishes, the session is deserialized and stored at `session/Session.ser`.
 
-> Notice that there is a demo session at `phase2/session/Session_demo.ser`, that is used during the demonstration video. If you want to have a look yourself, on line 17 of `ConferenceSystem` change `SESSION_PATH` to `"./session/Session_demo.ser"`.
+> Notice that there is a demo session at `session/Session_demo.ser`, that is used during the demonstration video. If you want to have a look yourself, on line 17 of `ConferenceSystem` change `SESSION_PATH` to `"./session/Session_demo.ser"`.
 
 Every time the program starts, it tries to restore the session by serializes the `Session.ser`. For any reason, if the program failed to find such file, it will automatically load a sample session, which contains the following account to save you time when trying out features:
 
@@ -51,9 +51,7 @@ We have 4 external dependencies:
 
 > Notice that you need `Java 11` or later!
 
-First Open Intellij then open the project on the `phase2` folder. (This step is important because all the folder we are referencing below is from the `phase2` folder).
-
-Now locate the `lib` folder, then open `Project Structure` in Intellij IDEA, in the `Project` tab choose `Java 11` or later as `Project SDK`. 
+First locate the `lib` folder, then open `Project Structure` in Intellij IDEA, in the `Project` tab choose `Java 11` or later as `Project SDK`. 
 
 Then click on `Libraries` tab, then click the `+`  on the top-left comer of the interface, then choose `Java` from the drop down, then select the `lib` folder, then `OK`. 
 

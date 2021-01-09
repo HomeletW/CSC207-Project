@@ -1,4 +1,5 @@
 - [Install Instructions](#install-instructions)
+- [Instructor Feedback](#instructor-feedback)
 - [Important Detail](#important-detail)
 - [Entities and Noun](#entities-and-noun)
 - [Feature List](#feature-list)
@@ -7,12 +8,49 @@
 
 # CSC207 Conference Project
 
-This project is the final assessment of University Of Toronto `CSC207` Fall 2020.
+This project is the final project of University Of Toronto `CSC207` Fall 2020.
 
 The program is developed with the intent of helping to solve a series of problems and situations people may encounter during event management.
 
 In the project many tools has used to have an overview of schedule for various events, and to allow people
 including Organizers, Speakers, and Attendees at a conference to communicate with each other.
+
+## Instructor Feedback
+
+This Project consist of two phases.
+
+### Phase 1
+
+- Functionalities work
+
+- Great understanding of abstraction and encapsulation, but keep in mind that simplicity is also important! There could be a way to implement some functionalities in a simpler way without having to implement many more classes.
+
+- Controllers are also printing to the UI, and since you have presenters you should exclusively leave the interaction with the UI to the presenter classes.
+
+- You have a package named UI with files that prints to the actual UI, and also a presenter package. The Presenter is the part of the code responsible for sending visual information to the User Interface (UI). If you have a Graphic User Interface (GUI), the presenter might send information such as which colour scheme or theme the user prefers. However, for Phase 1, the only information we display to the user is text. For Phase 1, then, it makes sense to have the presenter print the Strings directly to the screen. So possibly reconsider the roles of your files.
+
+_Phase1 Mark : 9 / 10_
+
+### Phase 2
+
+1. Your project makes good use of:
+    - Design patterns such as factory, façade and builder
+    - inheritance and interfaces
+    - packages
+2. Someone using your program will see:
+    - Easy-to-use graphic UI
+    - Speaker Statistics
+    - Reward and Requirement point system
+    - Search filters for events
+    - VIP user options
+    - Friend recommendation system
+3. Good next Steps include:
+    - It was a good idea to break up the Event class, since it was getting quite large. However, I don't see the need to distinguish between an event with 0, 1, or more speakers. In general, the people who write specifications tend to know how they want their program to be used, but not necessarily how to program. It is up to you to decide which nouns should be their own classes or not. Can you think of a design that would simplify the methods required by Event without using inheritance in this particular way?
+    - Provide javadoc for every class/method/variable that is not private.
+
+Overall, you were able to solve a number of problems in your design. How you solved them was sometimes a bit more complicated than it needed to be. Can you think of ways that you could make your program more streamlined and less complicated with the same functionality?
+
+_Final Mark : 17.2 / 20_
 
 ## Important Detail
 

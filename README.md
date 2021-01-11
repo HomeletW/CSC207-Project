@@ -60,11 +60,11 @@ The list of feature we implemented are located below in the [Feature List](#feat
 
 The list of design pattern employed are located below in the [Design Patterns](#design-patterns) section.
 
-After the program finishes, the session is deserialized and stored at `session/Session.ser`.
+After the program finishes, the session is serialized and stored at `session/Session.ser`.
 
 > Notice that there is a demo session at `session/Session_demo.ser`, that is used during the demonstration video. If you want to have a look yourself, on line 17 of `ConferenceSystem` change `SESSION_PATH` to `"./session/Session_demo.ser"`.
 
-Every time the program starts, it tries to restore the session by serializes the `Session.ser`. For any reason, if the program failed to find such file, it will automatically load a sample session, which contains the following account to save you time when trying out features:
+Every time the program starts, it tries to restore the session by deserializes the `Session.ser`. For any reason, if the program failed to find such file, it will automatically load a sample session, which contains the following account to save you time when trying out features:
 
 | Type      | Username | Password |
 | --------- | -------- | -------- |
